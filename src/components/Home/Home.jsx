@@ -38,7 +38,7 @@ const Home = () => {
             <Button>Get Started</Button>
           </div>
           <div className="hero-img">
-            <img src="/public/images/user.png" alt="" />
+            <img src="/images/user.png" alt="" />
           </div>
         </div>
       </div>
