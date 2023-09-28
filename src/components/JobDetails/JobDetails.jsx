@@ -4,7 +4,26 @@ const JobDetails = () => {
   const { id } = useParams();
   const allJobDetails = useLoaderData();
   const jobDetails = allJobDetails.find((jd) => jd.id === parseInt(id));
-  console.log(jobDetails);
+
+  const applyBtn = (id) => {
+    let appliedJob = {};
+    //get the job from the local storage
+    const storedJob = localStorage.getItem("applied-job");
+    if (storedJob) {
+      appliedJob = JSON.parse(storedJob);
+    }
+    //check quantity
+    const quantity = appliedJob[id];
+
+    if (!quantity) {
+      appliedJob[id] = 1;
+    } else {
+      const newQuantity = quantity + 1;
+      appliedJob[id] = newQuantity;
+    }
+    localStorage.setItem("applied-job", JSON.stringify(appliedJob));
+  };
+
   return (
     <div>
       <div className="job-details-header">
@@ -52,7 +71,9 @@ const JobDetails = () => {
                 <b>Address:</b> {jobDetails.contact_information.address}
               </p>
             </div>
-            <button className="btn">Apply Now</button>
+            <button onClick={() => applyBtn(id)} className="btn">
+              Apply Now
+            </button>
           </div>
         </div>
       </div>

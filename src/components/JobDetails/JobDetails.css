@@ -39,3 +39,23 @@
 .job-details-summery {
   margin-right: 25px;
 }
+.job-details-box {
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.1) 0%,
+    rgba(152, 115, 255, 0.1) 100%
+  );
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.job-details-box h2 {
+  color: var(--Dark-01, #1a1919);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e6e6e6;
+}
