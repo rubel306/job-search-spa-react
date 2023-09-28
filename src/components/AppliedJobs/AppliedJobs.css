@@ -1,0 +1,13 @@
+.applied-jobs .feature-job {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.applied-jobs .feature-job > div {
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.applied-jobs {
+  padding: 100px 0;
+}

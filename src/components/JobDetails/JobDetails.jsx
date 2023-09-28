@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import "./JobDetails.css";
+import JobDetailsHeader from "../JobDetailsHeader/JobDetailsHeader";
 const JobDetails = () => {
   const { id } = useParams();
   const allJobDetails = useLoaderData();
@@ -26,11 +27,7 @@ const JobDetails = () => {
 
   return (
     <div>
-      <div className="job-details-header">
-        <div className="container">
-          <h2>Job details</h2>
-        </div>
-      </div>
+      <JobDetailsHeader>Job details</JobDetailsHeader>
       <div className="container">
         <div className=" job-details">
           <div className="job-details-summery">
