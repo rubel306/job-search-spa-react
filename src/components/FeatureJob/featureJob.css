@@ -1,0 +1,63 @@
+.feature-job {
+}
+.feature-job img {
+  width: 116.686px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+.feature-job h3 {
+  color: var(--Dark-02, #474747);
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.feature-job p {
+  color: var(--Dark-03, #757575);
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sm-btn {
+  display: inline-flex;
+  padding: 9px 19px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--Linear, #7e90fe);
+  background-color: transparent;
+  margin: 15px 15px 15px 0;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.flex {
+  display: flex;
+}
+.flex > p {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.feature-job {
+  border-radius: 8px;
+  border: 1px solid var(--Dark-06, #e8e8e8);
+  padding: 30px;
+  margin: 10px;
+}
+.feature-job a {
+  text-decoration: none;
+  color: #fff;
+}
+.center {
+  text-align: center;
+  margin-top: 25px;
+}

@@ -1,0 +1,57 @@
+.hero-info h2 {
+  color: #1a1919;
+  font-family: Manrope;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100px;
+}
+.hero-section {
+  padding: 50px 0 0 0;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.hero-area {
+  display: flex;
+}
+.hero-section img {
+  width: 816px;
+  height: 744px;
+  flex-shrink: 0;
+}
+.colored-text {
+  background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Manrope;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100px;
+}
+.hero-info p {
+  color: #757575;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 25px 0;
+}
+.category-section,
+.featured-job-area {
+  padding: 100px 0;
+}
+.categories-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features-job {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,41 @@
+.job-details-header {
+  text-align: center;
+  background-image: url("/public/images/bg1.png");
+  background-repeat: no-repeat;
+  padding-bottom: 140px;
+  background-size: contain;
+  background-color: #f9f9ff;
+}
+.job-details-header h2 {
+  color: var(--Dark-01, #1a1919);
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.job-details {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.job-details b {
+  color: var(--Dark-01, #1a1919);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px; /* 200% */
+}
+.job-details p {
+  color: var(--Dark-03, #757575);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+.job-details-summery {
+  margin-right: 25px;
+}
